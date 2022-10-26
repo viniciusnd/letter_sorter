@@ -19,6 +19,6 @@
 <div>
 <h4> IMPORTANT LINKS </h4>
 <ul>
-<li>To setup a project like this go to: <a href="https://tailwindcss.com/docs/guides/vite">Install Tailwind CSS with Vite</a></li>
+<li>To view the project online <a href="https://letter-sorter.vercel.app/">CLICK HERE</a></li>
 <li>To setup a project like this go to: <a href="https://tailwindcss.com/docs/guides/vite">Install Tailwind CSS with Vite</a></li>
 </div>
