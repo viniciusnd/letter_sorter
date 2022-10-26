@@ -7,7 +7,7 @@ export default function Homepage() {
     useState(function generateRandomLetter() {
       return (
 
-        <ion-icon name="help-outline"></ion-icon>
+        <span className="text-xl md:text-3xl text-red-900 uppercase">Click on SORT to start!</span>
 
       );
     });
@@ -18,17 +18,23 @@ export default function Homepage() {
     console.log(alfabeto)
     sorter(sorteio)
     if (sorteio === undefined) {
-      sorter("Game Over")
+      sorter(
+        <span className="text-xl md:text-3xl text-red-900 uppercase">GAME OVER!</span>
+      )
     }
   }
-  function ClickonReset(e){
-    if (alfabeto.length < 26){
+  function ClickonReset(e) {
+    if (alfabeto.length < 26) {
       alfabeto = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'W', 'Y', 'Z']
       console.log(alfabeto)
-      sorter(<ion-icon name="help-outline"></ion-icon>)
+      sorter(
+        <span className="text-xl md:text-3xl text-red-900 uppercase">Click on SORT to start!</span>
+      )
 
     } else {
-      sorter ("Não é possivel Resetar")
+      sorter(
+        <span className="text-xl md:text-3xl text-red-900 uppercase">You cannot reset now!</span>
+      )
     }
   }
   return (
