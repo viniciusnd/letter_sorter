@@ -40,7 +40,7 @@ export default function Homepage() {
   return (
     <div className="min-h-screen bg-blue-700">
       <div className="flex flex-row justify-center">
-        <header className="text-3xl md:text-5xl uppercase mt-5 font-bold font-shadows text-white tracking-widest">Letter Sorter</header>
+        <header className="text-xl md:text-5xl uppercase mt-5 font-bold font-shadows text-white tracking-widest">Letter Sorter</header>
       </div>
 
       <div className="flex flex-row justify-center items-center mt-24">
