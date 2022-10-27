@@ -14,7 +14,10 @@ module.exports = {
       'shadows': ['Shadows Into Light', 'cursive'],
       'amiri': ['Amiri', 'serif'],
       'josefin': ['Josefin Sans', 'sans-serif'],
-      'playfair':['Playfair Display SC', 'serif']
+      'playfair':['Playfair Display SC', 'serif'],
+      'bebas':['Bebas Neue', 'cursive'],
+      'amatic': ['Amatic SC', 'cursive'],
+      'righteous':['Righteous', 'cursive']
     },
     fontSize: {
       xs: ['12px', '16px'],
@@ -25,7 +28,11 @@ module.exports = {
       '2xl': ['32px', '40px'],
       '3xl': ['48px', '56px'],
       '4xl': ['52px', '60px'],
-      '5xl': ['56px', '64px']
+      '5xl': ['56px', '64px'],
+      '6xl': ['60px', '68px'],
+      '7xl': ['64px', '72px'],
+      '8xl': ['68px', '76px'],
+      '9xl': ['72px', '80px'],
     },
     extend: {
       colors:{
@@ -50,12 +57,7 @@ module.exports = {
           300: '#8ecae6',
           500: '#219ebc',
           700: '#023047',
-        },
-        rose: {
-          300: '#fcd5ce', 
-          500: '#ffb5a7',
-          700: '#e56b6f',
-        },
+        }
       }
     },
   },
